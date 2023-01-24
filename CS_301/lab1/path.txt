@@ -1,0 +1,3 @@
+"C:\Users\colej\OneDrive\Documents\cs301\lab1\hello.py"
+"C:\Users\colej\OneDrive\Documents\cs301\lab1\double.py"
+"C:\Users\colej\OneDrive\Documents\cs301\p1"
