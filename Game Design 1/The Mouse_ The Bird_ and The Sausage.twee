@@ -1,0 +1,221 @@
+:: StoryTitle
+The Mouse, The Bird, and The Sausage
+
+
+:: StoryData
+{
+  "ifid": "988D36F7-2C9A-4FA5-9971-377B73EB6AB4",
+  "format": "Harlowe",
+  "format-version": "3.3.4",
+  "start": "Beginning",
+  "zoom": 1
+}
+
+
+:: \ confronting the bird {"position":"800,800","size":"100,100"}
+(text-colour:cyan)[''Mouse'']<br>
+You and the sausage return home and confront the bird about the whole situation. You tell him everything. The bird is appalled by the situation that he's put his partners in. In disgust with himself, he allows each person to return to their original roles. You all live happily ever after. <br>[[The end.->End]]
+
+
+:: \ confrontingbird {"position":"1200,1000","size":"100,100"}
+(text-colour:cyan)[''Mouse'']<br>
+Almost home, you and the sausage you are holding up see a stack of smoke coming from where your house is. You both rush to see the house up in flames. The bird apparently does not know how to cook. With only you and the sausage remaining in this partnership you decide it's best you split up and go your separate ways to keep each other out of danger. <br>[[The end.->End]]
+
+
+:: Beginning {"position":"1100,100","size":"100,100"}
+<img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/f71d228672929.560c17ce0b5fe.png"></img>
+<br>
+Once upon a time, a mouse, a bird, and a sausage, entered into partnership and set up house together. For a long time all went well; they lived in great comfort, and prospered so far as to be able to add considerably to their stores. The bird’s duty was to fly daily into the wood and bring in fuel; the mouse fetched the water, and the sausage saw to the cooking.<br>[[Bird]]<br>[[Mouse]]<br>[[Sausage]]
+
+
+:: Bird {"position":"600,300","size":"100,100"}
+(text-colour:cyan)[''Bird'']<br>
+When people are too well off they always begin to long for something new. And so it came to pass, you, while out one day, met a fellow bird, to whom he boastfully expatiated on the excellence of his household arrangements. But the other bird sneered at you for being a poor simpleton, who did all the hard work, while your partners stayed at home and had a good time of it. <br>Was the Other Bird right?<br> [[Agree->agree]] <br>[[Disagree->disagree]]
+
+
+:: Bird Investigate {"position":"300,600","size":"100,100"}
+(text-colour:cyan)[''Bird'']<br>
+You got a shiny rock! [[Nice!]]
+
+
+:: Don'tInvestigate {"position":"1000,700","size":"100,100"}
+(text-colour:cyan)[''Mouse'']<br>
+After a time the sausage remained so long away, that you and the bird became uneasy, and the bird flew out to meet him. He had not flown far, however, when he came across a dog who, having met the sausage, had regarded him as food and so seized and swallowed him. Heartbroken you still try to [[make dinner]].
+
+
+:: End {"position":"1000,1200","size":"100,100"}
+(text-style:"bold","emboss")[Thanks for playing our game! We hope you enjoyed.]<br><br> (text-style:"outline","expand","buoy")[From the minds of:<br> Cole Johnstone<br>Claire Richmond<br>Wyatt Williams<br>]
+
+<img src="https://media.tenor.com/7KE3TH-N4IAAAAAC/celebrate-party.gif"></img>
+<br>
+[[Back to the start.->Beginning]]
+
+
+:: Face cat {"position":"400,700","size":"100,100"}
+(text-colour:cyan)[''Bird'']<br>
+You face the cat, get your water, and escape unharmed.  On returning to your house and meeting the mouse, you notice that the sausage hasn't returned yet.  Do you want to invesigate? <br> [[Yes]] <br>[[No]]
+
+
+:: FirewoodSausage {"position":"1500,500","size":"100,100"}
+(text-colour:cyan)[''Sausage'']<br>
+You go out to gather firewood, and on your way you see a hungry dog.  It starts to run towards you, do you want to [[drop the firewood and run]], or [[hang on to your fuel]]?
+
+
+:: Mouse {"position":"1100,300","size":"100,100"}
+(text-colour:cyan)[''Mouse'']<br>
+The mouse had made the fire and fetched in the water. Now she could retire into her little room and [[rest]] until it was time to set the table, or she could [[set it]] right away.
+
+
+:: MouseDeny {"position":"1000,600","size":"100,100"}
+(text-colour:cyan)[''Mouse'']<br>
+You plead and plead and try to stand your ground against the bird. However, the bird is stronger and starts making threats. You are now forced to cook. <br>[[Darn.->MouseWait]]
+
+
+:: MouseFirewood {"position":"1100,600","size":"100,100"}
+(text-colour:cyan)[''Mouse'']<br>
+On your way to the woods to collect firewood, you spot something shiny out of the corner of your eye! Do you want to go investigate?  <br>[[Yes->MouseInvestigate]] <br>[[No->MouseNoInv]]
+
+
+:: MouseInvestigate {"position":"1100,700","size":"100,100"}
+(text-colour:cyan)[''Mouse'']<br>
+You got a shiny rock! [[Nice!->MouseNoInv]]
+
+
+:: MouseNoInv {"position":"1200,800","size":"100,100"}
+(text-colour:cyan)[''Mouse'']<br>
+Now you go pick up your firewood like the good little mouse you are. You head back to the house, finding the bird relaxing while waiting to cook. The sausage has been out for a while now. It's getting concerning. Do you go [[look for him]] or [[wait it out]]?
+
+
+:: MouseWait {"position":"900,600","size":"100,100"}
+(text-colour:cyan)[''Mouse'']<br>
+While sitting at the fire, alone with your thoughts and waiting for the supplies you hear a noise. <br>Do you go [[investigate]], or [[not->Don'tInvestigate]]?
+
+
+:: NextMorning {"position":"1000,500","size":"100,100"}
+(text-colour:cyan)[''Mouse'']<br>
+The bird next morning refused to bring in the wood, telling the others that he had been their servant long enough, and had been a fool into the bargain, and that it was now time to make a change, and to try some other way of arranging the work. Do you want to [[gather firewood->MouseFirewood]], [[cook->MouseWait]] or [[deny->MouseDeny]] the job change completely?
+
+
+:: Nice! {"position":"400,600","size":"100,100"}
+(text-colour:cyan)[''Bird'']<br>
+You continue to the creek, and you see a cat near the water!  Do you want to proceed, knowing the cat may attack? <br>[[Face cat]] <br>[[Return home->return home]]
+
+
+:: No {"position":"400,800","size":"100,100"}
+(text-colour:cyan)[''Bird'']<br>
+The sausage never returns, lost to the world.  With no wood, you cannot make dinner tonight. The mouse blames you for changing all of their jobs, and sets out on her own.  Without dinner, you starve to death. <br>[[The end.->End]]
+
+
+:: Sausage {"position":"1700,300","size":"100,100"}
+(text-colour:cyan)[''Sausage'']<br>
+You had only to watch the pot to see that the food was properly cooked. When it was near dinner-time, you could just throw yourself into the broth, and rolled in and out among the vegetables three or four times, and there they were, buttered, and salted, and ready to be served.<br>[[Just watch->watch the pot]] or [[Jump in->throw yourself]]
+
+
+:: Yes {"position":"300,800","size":"100,100"}
+(text-colour:cyan)[''Bird'']<br>
+You find a dog that claims he has eaten the sausage while the sausage was getting wood.  You gather the wood left behind and carry it back to the house.  When the mouse goes to cook the meal, she realizes that she cannot cook, and burns the house down, and you both die.  <br>[[The end.->End]]
+
+
+:: agree {"position":"500,400","size":"100,100"}
+(text-colour:cyan)[''Bird'']<br>
+Influenced by those remarks, the next morning you refused to bring in the wood, telling the others that you had been their servant long enough, and had been a fool into the bargain, and that it was now time to make a change, and to try some other way of arranging the work.  The others pleaded and pleaded, but you did not relent.  Do you want to [[get water]] or [[cook]]?
+
+
+:: cook {"position":"500,500","size":"100,100"}
+(text-colour:cyan)[''Bird'']<br>
+When the others return with their supplies, you start cooking, but you do not know how.  You burn down the house, and when going to fetch water to put it out, you drown in the well. <br>[[The end.->End]]
+
+
+:: disagree {"position":"600,400","size":"100,100"}
+(text-colour:cyan)[''Bird'']<br>
+Then, when you came home and had laid aside your burden, you all sat down to table, and when you all had finished your meals, you all could sleep your fill till the following morning: and that was really a very delightful life. <br>[[The end.->End]]
+
+
+:: drop the firewood and run {"position":"1400,600","size":"100,100"}
+(text-colour:cyan)[''Sausage'']<br>
+You escape the dog, but have to drop the firewood in the process! With your wood being guarded by a dog, you return back to the house empty handed, finding the bird and the mouse waiting for you. Do you want to [[explain what happened]] or [[not explain->return back to the house fire]]?
+
+
+:: explain what happened {"position":"1400,800","size":"100,100"}
+(text-colour:cyan)[''Sausage'']<br>
+The mouse sides with you, and the bird feels remorse.  He apologizes and you go back to your original jobs the next day.  <br>[[The end.->End]]
+
+
+:: full bucket {"position":"1700,600","size":"100,100"}
+(text-colour:cyan)[''Sausage'']<br>
+You attempt to go back for a full bucket, but you cannot carry the weight back to the surface.  It drags you down and you drown at the bottom of the creek.  <br>[[The end.->End]]
+
+
+:: get water {"position":"400,500","size":"100,100"}
+(text-colour:cyan)[''Bird'']<br>
+On your way to collect water, you spot something shiny out of the corner of your eye!  Do you want to go investigate?  <br>[[Yes->Bird Investigate]] <br>[[No->Nice!]]
+
+
+:: go back {"position":"1600,600","size":"100,100"}
+(text-colour:cyan)[''Sausage'']<br>
+You decide it is too dangerous for you to try to get a full bucket, as you don't even have hands, for you are a sausage. You [[return back to the house]] with a half full bucket. 
+
+
+:: hang on to your fuel {"position":"1500,600","size":"100,100"}
+(text-colour:cyan)[''Sausage'']<br>
+The firewood is heavy, and you cannot outrun the dog while carrying it!  The dog catches up to you and swallows you whole. <br>[[The end.->End]]
+
+
+:: investigate {"position":"800,700","size":"100,100"}
+(text-colour:cyan)[''Mouse'']<br>
+The noise was a barking dog! The sausage is running away from the rabid mutt in a panic. Ahh! You race to intervene pulling the sausage into hiding around a rock. You realize that this job was too [[dangerous for the sausage -> confronting the bird]].
+
+
+:: look for him {"position":"1200,900","size":"100,100"}
+(text-colour:cyan)[''Mouse'']<br>
+After roaming for a while you see the sausage running away from a rabid mutt in a panic. Ahh! You race to intervene pulling the sausage into hiding behind a rock. You realize that this job was too [[dangerous for the sausage -> confrontingbird]].
+
+
+:: make dinner {"position":"1000,800","size":"100,100"}
+(text-colour:cyan)[''Mouse'']<br>
+While crying and still heartbroken you did not pay attention to the growing flames that swallowed you to a fiery death. <br>[[The end.->End]]
+
+
+:: rest {"position":"1000,400","size":"100,100"}
+(text-colour:cyan)[''Mouse'']<br>
+You decide to take a nap before you set the table. After waking up to a wonderful little sleep, you are energetic and set the table with ease. <br>[[Yay!->NextMorning]]
+
+
+:: return back to the house {"position":"1600,800","size":"100,100"}
+(text-colour:cyan)[''Sausage'']<br>
+You apologize for the half full bucket, but the bird doesn't want to hear it.  He kicks you out, so you try to go back to your sausage family. While traveling to your true sausage home, a pack of wild humans finds you out in the sun, cooked to perfection. Turns out they were hungry. You have been eaten. <br>[[The end.->End]]
+
+
+:: return back to the house fire {"position":"1500,800","size":"100,100"}
+(text-colour:cyan)[''Sausage'']<br>
+You apologize for not bringing back any firewood, but the bird doesn't want to hear it. He kicks you out, so you try to go back to your sausage family. While traveling to your true sausage home, a pack of wild humans finds you out in the sun, cooked to perfection. Turns out they were hungry. You have been eaten. <br>[[The end.->End]]
+
+
+:: return home {"position":"500,700","size":"100,100"}
+(text-colour:cyan)[''Bird'']<br>
+You reason that the others each faced their own challenges, and return home to apologize.  The mouse was small enough to avoid the cat, and the sausage is the only one who could jump into the pot to season the meals.  You all live happily ever after.  <br>[[The end.->End]]
+
+
+:: set it {"position":"1100,400","size":"100,100"}
+(text-colour:cyan)[''Mouse'']<br>
+You decide to set the table right away. After completing your task with time to spare you decide to take a nap anyway. 30 min pass and you wake up to delicious smelling dinner. <br>[[Scrumptious!->NextMorning]]
+
+
+:: throw yourself {"position":"1800,400","size":"100,100"}
+(text-colour:cyan)[''Sausage'']<br>
+After a wonderful dinner from the previous night, the bird and the mouse are both very satisfied with their living situations. You all live in harmony happily ever after. <br>[[The end.->End]]
+
+
+:: wait it out {"position":"1100,900","size":"100,100"}
+(text-colour:cyan)[''Mouse'']<br>
+Just waiting it out didn't seem to do you any favors. The bird, while attempting to cook burned down the house with you in it. You are now toast. <br>[[Yummy.->End]]
+
+
+:: watch the pot {"position":"1600,400","size":"100,100"}
+(text-colour:cyan)[''Sausage'']<br>
+The bird next morning refused to bring in the wood, telling you and the mouse that he had the hardest job, and had been a fool into the bargain, and that it was now time to make a change. He doesn't want to carry wood anymore, and suggests that you all switch jobs. Do you want to [[gather firewood->FirewoodSausage]] or [[get water->waterSausage]]?
+
+
+:: waterSausage {"position":"1600,500","size":"100,100"}
+(text-colour:cyan)[''Sausage'']<br>
+You make it to the creek, and attempt to get water.  You struggle to get half a bucket, and then come back to the surface, unable to swim.  Do you want to go back for a [[full bucket]] or [[go home->go back]]? 
